@@ -4,6 +4,7 @@ using System.Collections;
 
 public class PaddleBehavior : MonoBehaviour
 {
+    public float paddleSpeed;
     private Rigidbody2D _rigidbody2D;
     private GameObject _ball;
     private Rigidbody2D _rigidbody2DBall;
@@ -22,11 +23,11 @@ public class PaddleBehavior : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A) && !touchingSides)
             {
-                transform.position += Vector3.left * Time.deltaTime * 6;
+                transform.position += Vector3.left * Time.deltaTime * paddleSpeed;
             }
             if (Input.GetKey(KeyCode.D) && !touchingSides)
             {
-                transform.position += Vector3.right * Time.deltaTime * 6;
+                transform.position += Vector3.right * Time.deltaTime * paddleSpeed;
             }
         }
 
@@ -39,6 +40,7 @@ public class PaddleBehavior : MonoBehaviour
         }
         if (col.collider.tag == "Sides")
         {
+            print("Hit Sides");
             touchingSides = true;
         }
     }
