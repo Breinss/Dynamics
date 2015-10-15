@@ -35,7 +35,7 @@ public class PaddleBehavior : MonoBehaviour
         if (col.collider.name == "Ball")
         {
             ballAngle = _ball.transform.position.x - transform.position.x;
-            _rigidbody2DBall.AddForce(new Vector2(100f * ballAngle, 0));
+            _rigidbody2DBall.AddForce(new Vector2(300f * ballAngle, 0));
         }
         if (col.collider.tag == "Sides")
         {
