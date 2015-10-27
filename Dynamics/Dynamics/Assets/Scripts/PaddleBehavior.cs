@@ -5,18 +5,19 @@ using System.Collections;
 public class PaddleBehavior : MonoBehaviour
 {
     public float paddleSpeed;
-    private Rigidbody2D _rigidbody2D;
     private GameObject _ball;
     private Rigidbody2D _rigidbody2DBall;
     private float ballAngle;
     private bool touchingSides;
+
+    public float health;
+
         void Start()
         {
+            health = 100;
             touchingSides = false;
             _ball = GameObject.Find("Ball");
             _rigidbody2DBall = _ball.GetComponent<Rigidbody2D>();
-
-            _rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
         void Update()
@@ -28,6 +29,11 @@ public class PaddleBehavior : MonoBehaviour
             if (Input.GetKey(KeyCode.D) && !touchingSides)
             {
                 transform.position += Vector3.right * Time.deltaTime * paddleSpeed;
+            }
+
+            if (health <= 0)
+            {
+                Application.LoadLevel(Application.loadedLevel);
             }
         }
 

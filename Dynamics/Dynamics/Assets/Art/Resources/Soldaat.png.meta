@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 5c285e08e24fc304fbda18f90f28796c
+timeCreated: 1445370556
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Soldaat_0
+    21300002: Soldaat_1
+    21300004: Soldaat_2
+    21300006: Soldaat_3
+    21300008: Soldaat_4
+    21300010: Soldaat_5
+    21300012: Soldaat_6
+    21300014: Soldaat_7
+    21300016: Soldaat_8
+    21300018: Soldaat_9
+    21300020: Soldaat_10
+    21300022: Soldaat_11
+    21300024: Soldaat_12
+    21300026: Soldaat_13
+    21300028: Soldaat_14
+    21300030: Soldaat_15
+    21300032: Soldaat_16
+    21300034: Soldaat_17
+    21300036: Soldaat_18
+    21300038: Soldaat_19
+    21300040: Soldaat_20
+    21300042: Soldaat_21
+    21300044: Soldaat_22
+    21300046: Soldaat_23
+    21300048: Soldaat_24
+    21300050: Soldaat_25
+    21300052: Soldaat_26
+    21300054: Soldaat_27
+    21300056: Soldaat_28
+    21300058: Soldaat_29
+    21300060: Soldaat_30
+    21300062: Soldaat_31
+    21300064: Soldaat_32
+    21300066: Soldaat_33
+    21300068: Soldaat_34
+    21300070: Soldaat_35
+    21300072: Soldaat_36
+    21300074: Soldaat_37
+    21300076: Soldaat_38
+    21300078: Soldaat_39
+    21300080: Soldaat_40
+    21300082: Soldaat_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Soldaat_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 140
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 140
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 140
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 140
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 140
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 105
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 105
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 30
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 70
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 70
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 70
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 70
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 35
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 35
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 35
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 35
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 35
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_35
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_40
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldaat_41
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
