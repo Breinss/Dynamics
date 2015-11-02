@@ -12,9 +12,12 @@ public class GameManager : MonoBehaviour {
     private bool targetSpawned;
 
     public int spawnedTargets;
+
+    public int spawnedSpikes;
 	// Use this for initialization
 	void Start ()
 	{
+	    spawnedSpikes = 0;
 	    targetSpawned = false;
 	    bossSpawned = false;
 		_targetPaddle = Resources.Load ("TargetPaddle") as GameObject;
@@ -31,6 +34,7 @@ public class GameManager : MonoBehaviour {
 	    }
 	    if (spawnedTargets <= 0 && !bossSpawned && targetSpawned)
 	    {
+
             dragonBoss = Instantiate(_dragonBoss, new Vector3(_dragonBoss.transform.position.x, _dragonBoss.transform.position.y, -10), Quaternion.identity) as GameObject;
 	        bossSpawned = true;
 	    }

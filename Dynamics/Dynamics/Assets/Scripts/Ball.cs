@@ -18,6 +18,8 @@ public class Ball : MonoBehaviour
     private GameManager _gameManager;
     private bool spawnedDone;
 
+    public Sprite sprite;
+    private SpriteRenderer _spriteRenderer;
 
     private DragonBehavior _dragonBehavior;
 
@@ -61,8 +63,8 @@ public class Ball : MonoBehaviour
 	}
 
 	IEnumerator ReSize() {
-		transform.localScale = new Vector3 (2.5f,2.5f,0);
+		transform.localScale += new Vector3(.1f,.1f,0);
 		yield return new WaitForSeconds(.2f);
-		transform.localScale = new Vector3 (2,2,0);
+        transform.localScale -= new Vector3(.1f, .1f, 0);
 	}
 }

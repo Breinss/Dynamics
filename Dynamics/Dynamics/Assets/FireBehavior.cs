@@ -17,6 +17,18 @@ public class FireBehavior : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
         transform.position += Vector3.down * Time.deltaTime * speed;
+
+        Debug.DrawRay(transform.position, -Vector2.up * .15f, Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, .15f);
+
+        if (hit)
+        {
+
+            if (hit.collider.name == "Paddle")
+            {
+                _paddleBehavior.health -= 10;
+            }
+        }
 	}
 
     void OnBecameInvisible()
@@ -24,11 +36,4 @@ public class FireBehavior : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D coll)
-    {
-        if (coll.collider.tag == "Player")
-        {
-            _paddleBehavior.health -= 10f;
-        }
-    }
 }
